@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imádom a kutyám – adatvédelem és fióktörlés</title>
+<meta name="description" content="Az Imádom a kutyám alkalmazás adatvédelmi tájékoztatója, felhasználási feltételei és fióktörlési tájékoztatója.">
+<link rel="icon" href="ikon.png">
+<style>
+:root{--bg:#fffaf6;--fg:#2b2320;--muted:#6f625c;--acc:#e0505e;--card:#fff;--line:#f0e3dc}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1715;--fg:#f3ece8;--muted:#b6a8a1;--acc:#ff8a7a;--card:#25201d;--line:#3a322e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:linear-gradient(135deg,#ff9a62,#e0505e);color:#fff;padding:32px 16px}
+header .in,main{max-width:760px;margin:0 auto}
+header img{width:64px;height:64px;border-radius:16px;vertical-align:middle;margin-right:12px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+header h1{display:inline;font-size:1.6rem;vertical-align:middle}
+nav{max-width:760px;margin:0 auto;padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px}
+nav a{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;color:var(--fg);text-decoration:none;font-size:.95rem}
+main{padding:0 16px 48px}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:8px 22px 18px;margin:16px 0}
+h2{color:var(--acc);margin:16px 0 8px}
+h3{font-size:1.05rem;margin:18px 0 4px}
+p,li{overflow-wrap:anywhere}
+a{color:var(--acc)}
+footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
+</style>
+</head>
+<body>
+<header><div class="in"><img src="ikon.png" alt=""><h1>Imádom a kutyám</h1>
+<p>Kutyatartást segítő alkalmazás – fejlesztő: Olá-Máté Zsolt</p></div></header>
+<nav><a href="#adatvedelem">Adatvédelem</a><a href="#fiok-torles">Fiók törlése</a><a href="#feltetelek">Feltételek</a><a href="#orvosi-nyilatkozat">Orvosi nyilatkozat</a><a href="#kapcsolat">Kapcsolat</a></nav>
+<main>
+<section id="adatvedelem">
+<h2>Adatvédelmi tájékoztató</h2>
+<p>Hatályos: 2026. október 28.</p>
+<p>Röviden: belépés nélkül minden adatod csak a telefonodon van. Ha Google-fiókkal belépsz, az adataid biztonsági másolatként egy védett felhős tárhelyre (Google Firebase) is felkerülnek, hogy új telefonon is meglegyenek. Nincs reklám, nincs követés, és az adataidat nem adjuk el, nem elemezzük.</p>
+<h3>1. Ki felel az adatokért (adatkezelő)</h3>
+<p>Az alkalmazás fejlesztője: Olá-Máté Zsolt</p>
+<p>Kapcsolat: <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a></p>
+<h3>2. Milyen adatokat kezel az app</h3>
+<p>Az alábbi adatokat te adod meg:</p>
+<ul>
+<li>a neved (amivel az app megszólít),</li>
+<li>a kutyáid adatai (név, fajta, ivar, születési dátum, chipszám), fotói,</li>
+<li>emlékeztetők, napló-bejegyzések, súlymérések,</li>
+<li>az egészségkönyvbe feltöltött dokumentumfotók (pl. oltási könyv, lelet),</li>
+<li>az „Elveszett” plakát adatai (pl. telefonszám, helyszín, megjegyzés),</li>
+<li>a saját mentett helyeid (név, cím, telefonszám, esetleg koordináta),</li>
+<li>a beállításaid.</li>
+</ul>
+<p>Ha Google-lel belépsz, ezen felül: a Google-fiókod neve, e-mail címe, profilképe és egy egyedi fiókazonosító.</p>
+<p>A telefon hozzávetőleges helyzete (a hőségriasztáshoz) csak a telefonon tárolódik, a felhőbe nem kerül fel.</p>
+<p>Családi megosztásnál a közös adatokat és a nevedet (ahogy az appban megadtad) a család többi tagja is látja; azt is, ki jelölt késznek egy emlékeztetőt. Az e-mail címedet és a személyes beállításaidat nem látják.</p>
+<h3>3. Hol tárolódnak az adatok</h3>
+<ul>
+<li>Mindig a telefonod belső tárhelyén, az app saját területén.</li>
+<li>Belépés esetén a fenti adatok (a helyzet kivételével) a Google Firebase szolgáltatásban is tárolódnak (Google Ireland Ltd. / Google LLC, adatfeldolgozóként), európai (EU) adatközpontban. A hozzáférést biztonsági szabályok korlátozzák: a felhős adataidat csak a te bejelentkezett fiókod – családi megosztásnál a családod tagjai – érhetik el. A Google a szolgáltatás nyújtásához a belépési adatokat az EU-n kívül (pl. az USA-ban) is kezelheti, az uniós adatvédelmi előírásoknak megfelelő garanciákkal (EU–USA adatvédelmi keretrendszer, általános szerződési feltételek).</li>
+<li>A fejlesztő technikailag hozzáférhet a felhős tárhelyhez, de a te adataidat nem nézi meg, nem elemzi és nem használja fel; csak a te kérésedre (pl. hibaelhárítás, törlés) nyúl hozzájuk.</li>
+</ul>
+<h3>4. Mire használja az app az adatokat</h3>
+<p>Kizárólag az app funkcióihoz: emlékeztetők és értesítések, egészségkönyv és PDF, plakát, hőségriasztás, mentett helyek, valamint – belépés esetén – a felhős mentés és a telefonok közötti szinkronizálás. Az adatokat nem használjuk reklámra, és nem adjuk át harmadik félnek (az adatfeldolgozókon kívül).</p>
+<h3>5. Az adatkezelés jogalapja</h3>
+<p>Az app szolgáltatásainak – köztük a felhős mentésnek – a nyújtása a kérésedre (GDPR 6. cikk (1) b) pont), illetve a helyhozzáférésnél, értesítéseknél, kameránál és fotóknál a hozzájárulásod (GDPR 6. cikk (1) a) pont), amelyet bármikor visszavonhatsz a telefon beállításaiban.</p>
+<h3>6. Engedélyek</h3>
+<ul>
+<li>Helyzet: a hőségriasztáshoz (helyi időjárás) és ha egy saját helynél a „Most itt vagyok” lehetőséget választod. Az app csak használat közben kéri le, a háttérben nem követ.</li>
+<li>Értesítések: emlékeztetők és hőségriasztás.</li>
+<li>Kamera és fotók: kutyafotó és dokumentumok felvétele – csak amikor te választod ki.</li>
+</ul>
+<p>Engedély nélkül az app a többi funkcióval továbbra is használható.</p>
+<h3>7. Külső szolgáltatások – mi jut el hozzájuk</h3>
+<ul>
+<li>Google-belépés és Firebase (Google): lásd a 3. pontot.</li>
+<li>Időjárás – MET Norway (Norvég Meteorológiai Intézet, Norvégia, EGT-tagállam): a hőségriasztáshoz az app a helyzeted kerekített, kb. 1 km pontosságú koordinátáját küldi el. A szolgáltató a kérés technikai adatait (pl. IP-cím, időpont) rövid ideig naplózhatja. Ha a hőségriasztást kikapcsolod, ilyen kérés nem történik.</li>
+<li>Google Térkép: a helykategóriák, az „Útvonal” és a „Google Térkép” gombok a Google Térképet nyitják meg a keresett kifejezéssel vagy a mentett hely címével. Ettől kezdve a Google Térkép használatára a Google szabályai vonatkoznak.</li>
+<li>Megosztás: ha PDF-et vagy plakátot osztasz meg, azt te küldöd el az általad választott alkalmazással.</li>
+<li>Vásárlás: ha az appban Prémium előfizetés érhető el, azt a Google Play (App Store) kezeli; a fejlesztő a fizetési adataidat nem látja.</li>
+</ul>
+<h3>8. Mennyi ideig tárolódnak az adatok</h3>
+<ul>
+<li>A telefonon: amíg nem törlöd őket. Egy-egy bejegyzést, fotót, dokumentumot bármikor törölhetsz; kijelentkezéskor vagy az app eltávolításakor az adatok a telefonról törlődnek.</li>
+<li>A felhőben: amíg a fiókod létezik. Kijelentkezéskor a felhős adatok megmaradnak, hogy újra belépve visszakapd őket. A fiók törlésekor a személyes adataid azonnal és véglegesen törlődnek; ha családban vagy, a közös kutyaadatok a többi családtagnál megmaradnak (a neved törlődik a családból). Ha egyedül vagy, minden felhős adat törlődik.</li>
+</ul>
+<h3>9. Fiók és adatok törlése</h3>
+<ul>
+<li>Az appban: Beállítások → Fiók és felhő → Fiók és minden adat törlése.</li>
+<li>Ha az appot már nem éred el: E-mailben: írj a <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a> címre „Fiók törlése” tárggyal, a Google-fiókod e-mail címéről. 30 napon belül töröljük a fiókodat és minden felhős adatodat, és visszaigazoljuk.</li>
+</ul>
+<h3>10. Biztonság</h3>
+<p>A felhőbe az adatok titkosított kapcsolaton keresztül kerülnek, és a Google adatközpontjaiban titkosítva tárolódnak. A felhős adataidhoz csak a saját Google-fiókoddal – családi megosztásnál a családtagjaid a saját fiókjukkal – lehet hozzáférni.</p>
+<h3>11. Gyerekek</h3>
+<p>Az app nem kifejezetten gyerekeknek készült. 16 év alatt szülői hozzájárulással használható.</p>
+<h3>12. Jogaid</h3>
+<p>Jogod van az adataidhoz hozzáférni, helyesbíteni, törölni, az adatkezelést korlátozni, és az adataidat hordozható formában megkapni. A legtöbbet az appban magad is megteheted (szerkesztés, törlés, PDF). Minden más kéréssel írj: <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a> – 30 napon belül válaszolunk.</p>
+<p>Panasszal a Nemzeti Adatvédelmi és Információszabadság Hatósághoz (NAIH) fordulhatsz: 1055 Budapest, Falk Miksa utca 9–11., www.naih.hu.</p>
+<h3>13. Változások</h3>
+<p>Ha az app adatkezelése változik, ezt a tájékoztatót frissítjük, és az appban jelezzük.</p>
+</section>
+<section id="fiok-torles">
+<h2>Fiók és adatok törlése</h2>
+<p>Az <strong>Imádom a kutyám</strong> alkalmazásban létrehozott fiókodat és minden hozzá tartozó felhős adatodat bármikor törölheted.</p>
+<h3>1. Az alkalmazásban (azonnal)</h3>
+<p>Beállítások → Fiók és felhő → <strong>Fiók és minden adat törlése</strong>. A törlés azonnali és végleges.</p>
+<h3>2. Ha az alkalmazást már nem éred el</h3>
+<p>E-mailben: írj a <a href="mailto:mzsstudio9@gmail.com?subject=Fi%C3%B3k%20t%C3%B6rl%C3%A9se">mzsstudio9@gmail.com</a> címre „Fiók törlése” tárggyal, a Google-fiókod e-mail címéről. 30 napon belül töröljük a fiókodat és minden felhős adatodat, és visszaigazoljuk.</p>
+<h3>Mi törlődik?</h3>
+<ul>
+<li>a Google-fiókodhoz kapcsolt felhasználói adatlapod (név, e-mail cím, beállítások),</li>
+<li>a felhőben tárolt kutyaadatok, fotók, emlékeztetők, napló, súlymérések, dokumentumok, mentett helyek,</li>
+<li>a belépéshez használt fiókazonosító.</li>
+</ul>
+<h3>Mi maradhat meg?</h3>
+<ul>
+<li>Ha családi megosztásban voltál, a közös kutyaadatok a többi családtagnál megmaradnak, de a neved és a tagságod törlődik.</li>
+<li>Ha az alkalmazás a telefonodon marad, a helyi adatok a telefonon az alkalmazás eltávolításáig megmaradnak.</li>
+<li>A fejlesztő a felhőben semmilyen adatot nem őriz meg a törlés után.</li>
+</ul>
+</section>
+<section id="feltetelek">
+<h2>Felhasználási feltételek</h2>
+<p>Hatályos: 2026. október 28.</p>
+<h3>1. Kik vagyunk</h3>
+<p>Az „Imádom a kutyám” alkalmazást (a továbbiakban: alkalmazás vagy app) Olá-Máté Zsolt fejleszti és üzemelteti (a továbbiakban: fejlesztő). Kapcsolat: <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a></p>
+<h3>2. Mire való az alkalmazás</h3>
+<p>Az app kutyatartóknak segít: kutyák adatainak és fotóinak tárolása, emlékeztetők (oltás, gyógyszer, kontroll), egészségkönyv, napló, súlykövetés, dokumentumok, PDF-készítés, tünet- és fajtaismertetők, trükkök klikkerrel, hőségriasztás, közeli helyek keresése a Google Térképen, elveszett kutyás plakát készítése.</p>
+<h3>3. A feltételek elfogadása</h3>
+<p>Az app első indításakor a feltételek és az Orvosi nyilatkozat elfogadásával kezdheted el a használatot. Ha nem értesz egyet velük, kérjük, ne használd az alkalmazást. 16 év alatti felhasználó csak szülő vagy gondviselő hozzájárulásával használhatja.</p>
+<h3>3/A. Fiók és felhős mentés</h3>
+<p>Az app fiók nélkül is teljes értékűen használható; ilyenkor az adatok csak a telefonon vannak. Ha Google-fiókkal belépsz, az adataid biztonsági másolatként a felhőbe is felkerülnek, és másik telefonon belépve visszatöltődnek. A fiókodat és minden felhős adatodat bármikor törölheted: Beállítások → Fiók és felhő → Fiók és minden adat törlése. Ha az appot már nem éred el: E-mailben: írj a <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a> címre „Fiók törlése” tárggyal, a Google-fiókod e-mail címéről. 30 napon belül töröljük a fiókodat és minden felhős adatodat, és visszaigazoljuk. A Google-fiókod biztonságáért (jelszó, kétlépcsős azonosítás) te felelsz.</p>
+<h3>3/B. Családi megosztás</h3>
+<p>Meghívókóddal legfeljebb 5 fős családot hozhatsz létre. Ha az appban Prémium előfizetés érhető el, a meghíváshoz a tulajdonos Prémiuma kell; a meghívott tagoknak nem kell külön előfizetés. A családtagok látják és szerkeszthetik a közös adatokat (kutyák, fotók, emlékeztetők, egészségkönyv, dokumentumok, napló, súly, trükkök, plakát, mentett helyek), és látják egymás nevét. Kutyát törölni és tagokat kezelni a tulajdonos tud. Csak olyan személyt hívj meg, akivel meg szeretnéd osztani ezeket az adatokat. A tulajdonos bármikor eltávolíthat egy tagot, és bármelyik tag kiléphet; a közös adatok ilyenkor a családnál maradnak. Ha a tulajdonos Prémium előfizetése megszűnik, a családtagoknál is a Prémium funkciók korlátozottá válhatnak.</p>
+<h3>4. Felhasználási jog</h3>
+<p>A fejlesztő személyes, nem kizárólagos, át nem ruházható jogot ad az app használatára. Az app szövegei, kinézete, kódja és a saját készítésű tartalmak (pl. a klikker hangja) szerzői jogi védelem alatt állnak; ezek másolása, átdolgozása, terjesztése a fejlesztő engedélye nélkül nem megengedett. A felhasznált külső adatok és programkönyvtárak a saját licencük szerint használhatók (lásd: Beállítások → Források és licencek).</p>
+<h3>5. Tájékoztató jellegű tartalmak</h3>
+<p>A tünet-adatlapok, fajtajellemzők, trükkök és tanácsok általános tájékoztatást nyújtanak, gondos összeállításuk ellenére hibát vagy elavult információt tartalmazhatnak. Egészségügyi kérdésben mindig az állatorvos véleménye az irányadó (lásd: Orvosi nyilatkozat).</p>
+<h3>6. Külső szolgáltatások</h3>
+<ul>
+<li>Helyek a közelben: a kategóriák a Google Térképen nyitják meg a keresést. A találatokat, azok pontosságát, a nyitvatartást és a szolgáltatók munkáját a fejlesztő nem befolyásolja és nem ellenőrzi. Sürgős esetben telefonon győződj meg róla, hogy a hely nyitva van és fogad.</li>
+<li>Időjárás: az előrejelzés a MET Norway (Norvég Meteorológiai Intézet) adatain alapul, tájékoztató jellegű.</li>
+<li>A külső szolgáltatások elérhetősége a fejlesztőtől független; kiesésük esetén egyes funkciók átmenetileg nem működhetnek.</li>
+</ul>
+<h3>7. A te felelősséged</h3>
+<ul>
+<li>Az általad bevitt adatok, fotók és dokumentumok helyességéért és jogszerűségéért te felelsz. Csak olyan fotót tölts fel, amelyhez jogod van.</li>
+<li>Az „Elveszett” plakáton megadott adatok (pl. telefonszám, helyszín) a plakát megosztásával nyilvánossá válhatnak. Csak olyan adatot adj meg, amelynek nyilvánosságra kerülésébe beleegyezel.</li>
+<li>Az emlékeztetők akkor működnek, ha engedélyezed az értesítéseket. A telefon akkumulátor-kímélő beállításai késleltethetik vagy megakadályozhatják az értesítéseket; fontos időpontot ne kizárólag az appra bízz.</li>
+<li>Ha nem lépsz be, az adataid csak a telefonodon tárolódnak; ha a telefon elvész, megsérül, vagy törlöd az appot, az adatok elvesznek. Ezt Google-belépéssel (felhős mentés) előzheted meg.</li>
+<li>Az appot nem használhatod jogellenes célra, és nem kísérelheted meg a működését megzavarni vagy visszafejteni.</li>
+</ul>
+<h3>8. Prémium előfizetés (ha az app adott verziójában elérhető)</h3>
+<ul>
+<li>Egyes funkciók (pl. több kutya, PDF-készítés, korlátlan dokumentum, plakát megosztása) Prémium előfizetéssel érhetők el. Az ingyenes és a Prémium funkciók aktuális listája az appban, a Prémium oldalon látható.</li>
+<li>Az előfizetést a Google Play (iOS-en az App Store) rendszerén keresztül vásárolhatod meg; a fizetést, a számlázást és a visszatérítést az adott áruház kezeli, a saját feltételei szerint.</li>
+<li>Az előfizetés a választott időszak (pl. hónap vagy év) végén automatikusan megújul, amíg le nem mondod. Lemondani bármikor lehet a Google Play → Fizetés és előfizetések → Előfizetések menüben (iOS-en az App Store beállításaiban). A lemondás a már kifizetett időszak végén lép életbe; addig a Prémium funkciók elérhetők maradnak.</li>
+<li>Az ár a vásárlás előtt az áruházban megjelenik. Árváltozás esetén az áruház előre értesít, és a megújításkor dönthetsz.</li>
+<li>Digitális szolgáltatásnál a 14 napos elállási jog az áruház szabályai szerint érvényesíthető; ha a szolgáltatás teljesítése a kifejezett hozzájárulásoddal azonnal megkezdődik, az elállási jog a jogszabály szerint megszűnhet. Visszatérítési kérelmet a Google Play (App Store) felületén nyújthatsz be.</li>
+<li>Az előfizetés lemondása vagy lejárta után a Prémiummal létrehozott adataid (pl. további kutyák, dokumentumok) megmaradnak, de egyes funkciók korlátozottan lesznek elérhetők.</li>
+</ul>
+<h3>9. Felelősség korlátozása</h3>
+<p>Az appot „ahogy van” állapotban biztosítjuk. A fejlesztő törekszik a hibátlan és folyamatos működésre, de nem garantálja, hogy az app mindig hibamentes, megszakítás nélküli vagy minden készüléken működő lesz. A fejlesztő – a jogszabályok által megengedett legnagyobb mértékben – nem felel az adatvesztésből, elmaradt értesítésből, külső szolgáltatás hibájából vagy a tájékoztató tartalmak alkalmazásából eredő károkért. Ez a korlátozás nem vonatkozik a szándékosan vagy súlyos gondatlansággal okozott, illetve az életet, testi épséget vagy egészséget megkárosító szerződésszegésért való felelősségre, és nem érinti a fogyasztóként téged megillető jogokat.</p>
+<h3>10. Változások</h3>
+<p>A fejlesztő az appot és ezeket a feltételeket fejlesztheti, módosíthatja. Lényeges változásról az appban tájékoztatunk; a módosítás után az app további használata a módosított feltételek elfogadását jelenti.</p>
+<h3>11. Irányadó jog, panaszkezelés</h3>
+<p>A feltételekre a magyar jog az irányadó. Kérdéssel, panasszal először írj nekünk: <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a> – 30 napon belül válaszolunk. Fogyasztóként a lakóhelyed szerint illetékes békéltető testülethez is fordulhatsz.</p>
+</section>
+<section id="orvosi-nyilatkozat">
+<h2>Orvosi nyilatkozat</h2>
+<p>Hatályos: 2026. október 28.</p>
+<p>Az „Imádom a kutyám” egy kutyatartást segítő, rendszerező alkalmazás. Segít emlékezni az oltásokra és kezelésekre, vezetni a kutyád egészségügyi adatait, és általános ismereteket ad a kutyák egészségéről és neveléséről.</p>
+<h3>1. Nem állatorvosi szolgáltatás</h3>
+<p>Az alkalmazás nem állatorvos, nem állít fel diagnózist, nem ír elő kezelést, gyógyszert vagy adagolást, és nem helyettesíti az állatorvosi vizsgálatot. A tünet-adatlapokon szereplő „lehetséges okok” csak általános tájékoztatást adnak arról, mi állhat egy tünet hátterében. Ugyanaz a tünet sokféle, eltérő súlyosságú okra utalhat, amit csak állatorvos tud megállapítani.</p>
+<h3>2. Sürgős esetben ne az appra hagyatkozz</h3>
+<p>Ha a kutyád rosszul van, sérült, mérgezésre gyanakszol, nehezen lélegzik, görcsöl, összeesik, vagy bármilyen kétséged van, azonnal hívd az állatorvost vagy a legközelebbi 0–24 órás ügyeletet. Ne várj arra, hogy a tünet magától elmúljon, és ne késleltesd az orvosi ellátást az alkalmazásban olvasottak miatt.</p>
+<h3>3. Gyógyszerek</h3>
+<p>Soha ne adj a kutyádnak emberi gyógyszert vagy más állatnak felírt gyógyszert állatorvosi utasítás nélkül. Az emlékeztetők csak az általad megadott adatokat jelzik; a gyógyszer fajtájáért, adagjáért és időzítéséért az állatorvos utasítása az irányadó.</p>
+<h3>4. „Mit tehetsz most?” tanácsok</h3>
+<p>Ezek általános, óvatos teendők arra az időre, amíg orvoshoz jutsz vagy a kutyádat figyeled. Nem kezelések, és nem helyettesítik az orvosi ellátást.</p>
+<h3>5. Fajtajellemzők</h3>
+<p>A fajtáknál felsorolt problémák hajlamot jelentenek, nem biztos betegséget. Sok kutyánál soha nem jelentkeznek, és keverék kutyáknál is előfordulhatnak.</p>
+<h3>6. Trükkök és tanítás</h3>
+<p>A trükköket mindig a kutyád életkorához, testalkatához és egészségi állapotához igazítsd. Kölyök, idős, ízületi vagy gerincproblémás kutyánál ugrást, gurulást, két lábra állást ne gyakorolj, csak ha az állatorvos szerint biztonságos. Ha a kutya fájdalmat, félelmet vagy stresszt mutat, hagyd abba.</p>
+<h3>7. Hőségriasztás</h3>
+<p>A hőségriasztás időjárás-előrejelzésen és általános szabályokon alapul. Az előrejelzés tévedhet, és a helyszíni viszonyok (napos aszfalt, szél, páratartalom) eltérhetnek. A kutyád állapotát mindig te ítéled meg a helyszínen. Kutyát melegben soha ne hagyj autóban, még rövid időre sem.</p>
+<h3>8. Felelősség</h3>
+<p>A kutyád egészségével, ellátásával és kezelésével kapcsolatos döntések a te felelősséged, állatorvosi tanács alapján. Az alkalmazás fejlesztője nem felel azért a kárért, amely abból ered, hogy valaki az alkalmazás általános tájékoztatására hagyatkozva nem kért időben állatorvosi segítséget.</p>
+</section>
+<section id="kapcsolat">
+<h2>Kapcsolat és visszajelzés</h2>
+<p>Az „Imádom a kutyám” fejlesztője: Olá-Máté Zsolt</p>
+<p>E-mail: <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a></p>
+<p>Írj nekünk, ha:</p>
+<ul>
+<li>hibát találtál az appban,</li>
+<li>ötleted van, mivel lehetne jobb,</li>
+<li>pontatlanságot találtál egy tünet-adatlapon, fajtaleírásban vagy trükknél,</li>
+<li>kérdésed van az adatvédelemmel, a fiókoddal vagy az előfizetéssel kapcsolatban.</li>
+</ul>
+<p>Hibabejelentésnél segít, ha leírod a telefonod típusát, és ha lehet, küldesz egy képernyőképet.</p>
+<p>Ha egy hely adatai hibásak a Google Térképen, azt közvetlenül a Google Térképen, a hely adatlapján a „Módosítás javaslata” gombbal jelezheted.</p>
+<p>Fiók és adatok törlése: az appban Beállítások → Fiók és felhő → Fiók és minden adat törlése. Ha az appot már nem éred el: E-mailben: írj a <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a> címre „Fiók törlése” tárggyal, a Google-fiókod e-mail címéről. 30 napon belül töröljük a fiókodat és minden felhős adatodat, és visszaigazoljuk.</p>
+<p>Előfizetéssel, fizetéssel és visszatérítéssel kapcsolatban a Google Play (App Store) ügyfélszolgálata is segít.</p>
+</section>
+
+</main>
+<footer>© Olá-Máté Zsolt · <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a></footer>
+</body>
+</html>
