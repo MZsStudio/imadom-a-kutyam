@@ -33,7 +33,7 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 <main>
 <section id="adatvedelem">
 <h2>Adatvédelmi tájékoztató</h2>
-<p>Hatályos: 2026. október 28.</p>
+<p>Hatályos: 2026. október 29.</p>
 <p>Röviden: belépés nélkül minden adatod csak a telefonodon van. Ha Google-fiókkal belépsz, az adataid biztonsági másolatként egy védett felhős tárhelyre (Google Firebase) is felkerülnek, hogy új telefonon is meglegyenek. Nincs reklám, nincs követés, és az adataidat nem adjuk el, nem elemezzük.</p>
 <h3>1. Ki felel az adatokért (adatkezelő)</h3>
 <p>Az alkalmazás fejlesztője: Olá-Máté Zsolt</p>
@@ -50,7 +50,8 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 <li>a beállításaid.</li>
 </ul>
 <p>Ha Google-lel belépsz, ezen felül: a Google-fiókod neve, e-mail címe, profilképe és egy egyedi fiókazonosító.</p>
-<p>A telefon hozzávetőleges helyzete (a hőségriasztáshoz) csak a telefonon tárolódik, a felhőbe nem kerül fel.</p>
+<p>A telefon hozzávetőleges helyzete (az időjárás-riasztáshoz) csak a telefonon tárolódik, a felhőbe nem kerül fel.</p>
+<p>Hibajelentés: ha az app hibára fut vagy összeomlik, egy névtelen hibajelentés készül (a hiba helye a programkódban, a telefon típusa, az Android- és az app-verzió, egy véletlenszerű telepítési azonosító). Ebben nincsenek a kutyáid adatai, a neved vagy az e-mail címed. A Beállításokban kikapcsolható.</p>
 <p>Családi megosztásnál a közös adatokat és a nevedet (ahogy az appban megadtad) a család többi tagja is látja; azt is, ki jelölt késznek egy emlékeztetőt. Az e-mail címedet és a személyes beállításaidat nem látják.</p>
 <h3>3. Hol tárolódnak az adatok</h3>
 <ul>
@@ -59,20 +60,21 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 <li>A fejlesztő technikailag hozzáférhet a felhős tárhelyhez, de a te adataidat nem nézi meg, nem elemzi és nem használja fel; csak a te kérésedre (pl. hibaelhárítás, törlés) nyúl hozzájuk.</li>
 </ul>
 <h3>4. Mire használja az app az adatokat</h3>
-<p>Kizárólag az app funkcióihoz: emlékeztetők és értesítések, egészségkönyv és PDF, plakát, hőségriasztás, mentett helyek, valamint – belépés esetén – a felhős mentés és a telefonok közötti szinkronizálás. Az adatokat nem használjuk reklámra, és nem adjuk át harmadik félnek (az adatfeldolgozókon kívül).</p>
+<p>Kizárólag az app funkcióihoz: emlékeztetők és értesítések, egészségkönyv és PDF, plakát, időjárás-riasztás, mentett helyek, valamint – belépés esetén – a felhős mentés és a telefonok közötti szinkronizálás. Az adatokat nem használjuk reklámra, és nem adjuk át harmadik félnek (az adatfeldolgozókon kívül).</p>
 <h3>5. Az adatkezelés jogalapja</h3>
-<p>Az app szolgáltatásainak – köztük a felhős mentésnek – a nyújtása a kérésedre (GDPR 6. cikk (1) b) pont), illetve a helyhozzáférésnél, értesítéseknél, kameránál és fotóknál a hozzájárulásod (GDPR 6. cikk (1) a) pont), amelyet bármikor visszavonhatsz a telefon beállításaiban.</p>
+<p>Az app szolgáltatásainak – köztük a felhős mentésnek – a nyújtása a kérésedre (GDPR 6. cikk (1) b) pont), illetve a helyhozzáférésnél, értesítéseknél, kameránál és fotóknál a hozzájárulásod (GDPR 6. cikk (1) a) pont), amelyet bármikor visszavonhatsz a telefon beállításaiban. A névtelen hibajelentés jogalapja az app hibamentes működéséhez fűződő jogos érdek (GDPR 6. cikk (1) f) pont); a Beállításokban bármikor kikapcsolhatod.</p>
 <h3>6. Engedélyek</h3>
 <ul>
-<li>Helyzet: a hőségriasztáshoz (helyi időjárás) és ha egy saját helynél a „Most itt vagyok” lehetőséget választod. Az app csak használat közben kéri le, a háttérben nem követ.</li>
-<li>Értesítések: emlékeztetők és hőségriasztás.</li>
+<li>Helyzet: az időjárás-riasztáshoz (helyi időjárás) és ha egy saját helynél a „Most itt vagyok” lehetőséget választod. Az app csak használat közben kéri le, a háttérben nem követ.</li>
+<li>Értesítések: emlékeztetők és időjárás-riasztás.</li>
 <li>Kamera és fotók: kutyafotó és dokumentumok felvétele – csak amikor te választod ki.</li>
 </ul>
 <p>Engedély nélkül az app a többi funkcióval továbbra is használható.</p>
 <h3>7. Külső szolgáltatások – mi jut el hozzájuk</h3>
 <ul>
 <li>Google-belépés és Firebase (Google): lásd a 3. pontot.</li>
-<li>Időjárás – MET Norway (Norvég Meteorológiai Intézet, Norvégia, EGT-tagállam): a hőségriasztáshoz az app a helyzeted kerekített, kb. 1 km pontosságú koordinátáját küldi el. A szolgáltató a kérés technikai adatait (pl. IP-cím, időpont) rövid ideig naplózhatja. Ha a hőségriasztást kikapcsolod, ilyen kérés nem történik.</li>
+<li>Hibajelentés – Firebase Crashlytics (Google): a 2. pontban leírt névtelen hibajelentéseket kapja meg; ezeket legfeljebb 90 napig őrzi, és kizárólag a hibák javítására használjuk.</li>
+<li>Időjárás – MET Norway (Norvég Meteorológiai Intézet, Norvégia, EGT-tagállam): az időjárás-riasztáshoz az app a helyzeted kerekített, kb. 1 km pontosságú koordinátáját küldi el. A szolgáltató a kérés technikai adatait (pl. IP-cím, időpont) rövid ideig naplózhatja. Ha az időjárás-riasztást kikapcsolod, ilyen kérés nem történik.</li>
 <li>Google Térkép: a helykategóriák, az „Útvonal” és a „Google Térkép” gombok a Google Térképet nyitják meg a keresett kifejezéssel vagy a mentett hely címével. Ettől kezdve a Google Térkép használatára a Google szabályai vonatkoznak.</li>
 <li>Megosztás: ha PDF-et vagy plakátot osztasz meg, azt te küldöd el az általad választott alkalmazással.</li>
 <li>Vásárlás: ha az appban Prémium előfizetés érhető el, azt a Google Play (App Store) kezeli; a fejlesztő a fizetési adataidat nem látja.</li>
@@ -119,11 +121,11 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 </section>
 <section id="feltetelek">
 <h2>Felhasználási feltételek</h2>
-<p>Hatályos: 2026. október 28.</p>
+<p>Hatályos: 2026. október 29.</p>
 <h3>1. Kik vagyunk</h3>
 <p>Az „Imádom a kutyám” alkalmazást (a továbbiakban: alkalmazás vagy app) Olá-Máté Zsolt fejleszti és üzemelteti (a továbbiakban: fejlesztő). Kapcsolat: <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a></p>
 <h3>2. Mire való az alkalmazás</h3>
-<p>Az app kutyatartóknak segít: kutyák adatainak és fotóinak tárolása, emlékeztetők (oltás, gyógyszer, kontroll), egészségkönyv, napló, súlykövetés, dokumentumok, PDF-készítés, tünet- és fajtaismertetők, trükkök klikkerrel, hőségriasztás, közeli helyek keresése a Google Térképen, elveszett kutyás plakát készítése.</p>
+<p>Az app kutyatartóknak segít: kutyák adatainak és fotóinak tárolása, emlékeztetők (oltás, gyógyszer, kontroll), egészségkönyv, napló, súlykövetés, dokumentumok, PDF-készítés, tünet- és fajtaismertetők, trükkök klikkerrel, időjárás-riasztás (hőség, hideg), közeli helyek keresése a Google Térképen, elveszett kutyás plakát készítése.</p>
 <h3>3. A feltételek elfogadása</h3>
 <p>Az app első indításakor a feltételek és az Orvosi nyilatkozat elfogadásával kezdheted el a használatot. Ha nem értesz egyet velük, kérjük, ne használd az alkalmazást. 16 év alatti felhasználó csak szülő vagy gondviselő hozzájárulásával használhatja.</p>
 <h3>3/A. Fiók és felhős mentés</h3>
@@ -166,7 +168,7 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 </section>
 <section id="orvosi-nyilatkozat">
 <h2>Orvosi nyilatkozat</h2>
-<p>Hatályos: 2026. október 28.</p>
+<p>Hatályos: 2026. október 29.</p>
 <p>Az „Imádom a kutyám” egy kutyatartást segítő, rendszerező alkalmazás. Segít emlékezni az oltásokra és kezelésekre, vezetni a kutyád egészségügyi adatait, és általános ismereteket ad a kutyák egészségéről és neveléséről.</p>
 <h3>1. Nem állatorvosi szolgáltatás</h3>
 <p>Az alkalmazás nem állatorvos, nem állít fel diagnózist, nem ír elő kezelést, gyógyszert vagy adagolást, és nem helyettesíti az állatorvosi vizsgálatot. A tünet-adatlapokon szereplő „lehetséges okok” csak általános tájékoztatást adnak arról, mi állhat egy tünet hátterében. Ugyanaz a tünet sokféle, eltérő súlyosságú okra utalhat, amit csak állatorvos tud megállapítani.</p>
@@ -180,8 +182,8 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 <p>A fajtáknál felsorolt problémák hajlamot jelentenek, nem biztos betegséget. Sok kutyánál soha nem jelentkeznek, és keverék kutyáknál is előfordulhatnak.</p>
 <h3>6. Trükkök és tanítás</h3>
 <p>A trükköket mindig a kutyád életkorához, testalkatához és egészségi állapotához igazítsd. Kölyök, idős, ízületi vagy gerincproblémás kutyánál ugrást, gurulást, két lábra állást ne gyakorolj, csak ha az állatorvos szerint biztonságos. Ha a kutya fájdalmat, félelmet vagy stresszt mutat, hagyd abba.</p>
-<h3>7. Hőségriasztás</h3>
-<p>A hőségriasztás időjárás-előrejelzésen és általános szabályokon alapul. Az előrejelzés tévedhet, és a helyszíni viszonyok (napos aszfalt, szél, páratartalom) eltérhetnek. A kutyád állapotát mindig te ítéled meg a helyszínen. Kutyát melegben soha ne hagyj autóban, még rövid időre sem.</p>
+<h3>7. Időjárás-riasztás (hőség és hideg)</h3>
+<p>Az időjárás-riasztás előrejelzésen és általános szabályokon alapul. Az előrejelzés tévedhet, és a helyszíni viszonyok (napos aszfalt, szél, páratartalom) eltérhetnek. A kutyád állapotát mindig te ítéled meg a helyszínen. Kutyát melegben soha ne hagyj autóban, még rövid időre sem; hidegben se hagyd hosszan a szabadban védelem nélkül.</p>
 <h3>8. Felelősség</h3>
 <p>A kutyád egészségével, ellátásával és kezelésével kapcsolatos döntések a te felelősséged, állatorvosi tanács alapján. Az alkalmazás fejlesztője nem felel azért a kárért, amely abból ered, hogy valaki az alkalmazás általános tájékoztatására hagyatkozva nem kért időben állatorvosi segítséget.</p>
 </section>
@@ -189,6 +191,7 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 <h2>Kapcsolat és visszajelzés</h2>
 <p>Az „Imádom a kutyám” fejlesztője: Olá-Máté Zsolt</p>
 <p>E-mail: <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a></p>
+<p>Weboldal: https://mzsstudio.github.io/imadom-a-kutyam/</p>
 <p>Írj nekünk, ha:</p>
 <ul>
 <li>hibát találtál az appban,</li>
@@ -198,7 +201,7 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 </ul>
 <p>Hibabejelentésnél segít, ha leírod a telefonod típusát, és ha lehet, küldesz egy képernyőképet.</p>
 <p>Ha egy hely adatai hibásak a Google Térképen, azt közvetlenül a Google Térképen, a hely adatlapján a „Módosítás javaslata” gombbal jelezheted.</p>
-<p>Fiók és adatok törlése: az appban Beállítások → Fiók és felhő → Fiók és minden adat törlése. Ha az appot már nem éred el: E-mailben: írj a <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a> címre „Fiók törlése” tárggyal, a Google-fiókod e-mail címéről. 30 napon belül töröljük a fiókodat és minden felhős adatodat, és visszaigazoljuk.</p>
+<p>Fiók és adatok törlése: az appban Beállítások → Fiók és felhő → Fiók és minden adat törlése. Ha az appot már nem éred el: E-mailben: írj a <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a> címre „Fiók törlése” tárggyal, a Google-fiókod e-mail címéről. 30 napon belül töröljük a fiókodat és minden felhős adatodat, és visszaigazoljuk. Részletek: https://mzsstudio.github.io/imadom-a-kutyam/#fiok-torles</p>
 <p>Előfizetéssel, fizetéssel és visszatérítéssel kapcsolatban a Google Play (App Store) ügyfélszolgálata is segít.</p>
 </section>
 
