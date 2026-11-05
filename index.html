@@ -33,7 +33,7 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 <main>
 <section id="adatvedelem">
 <h2>Adatvédelmi tájékoztató</h2>
-<p>Hatályos: 2026. november 4.</p>
+<p>Hatályos: 2026. november 5.</p>
 <p>Röviden: belépés nélkül minden adatod csak a telefonodon van. Ha Google-fiókkal belépsz, az adataid biztonsági másolatként egy védett felhős tárhelyre (Google Firebase) is felkerülnek, hogy új telefonon is meglegyenek. Nincs reklám, nincs követés, és az adataidat nem adjuk el, nem elemezzük.</p>
 <h3>1. Ki felel az adatokért (adatkezelő)</h3>
 <p>Az alkalmazás fejlesztője: Olá-Máté Zsolt</p>
@@ -56,6 +56,7 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 <p>A telefon hozzávetőleges helyzete (az időjárás-riasztáshoz) csak a telefonon tárolódik, a felhőbe nem kerül fel. A séták útvonala viszont pontos helyadat: csak akkor gyűlik, amikor te elindítasz egy sétát, és a befejezéséig tart; belépés esetén a felhőbe is felkerül (lásd a 3. pontot), és a családtagjaid is látják. Bármikor törölheted. Séta közben a családtagjaid annyit látnak, hogy épp sétálsz (a neved, a kedvenc és a kezdés ideje) – a helyzetedet nem.</p>
 <p>Hibajelentés: ha az app hibára fut vagy összeomlik, egy névtelen hibajelentés készül (a hiba helye a programkódban, a telefon típusa, az Android- és az app-verzió, egy véletlenszerű telepítési azonosító). Ebben nincsenek a kedvenceid adatai, a neved vagy az e-mail címed. A Beállításokban kikapcsolható.</p>
 <p>Családi megosztásnál a közös adatokat és a nevedet (ahogy az appban megadtad) a család többi tagja is látja; azt is, ki jelölt késznek egy emlékeztetőt. Az e-mail címedet és a személyes beállításaidat nem látják.</p>
+<p>Barátok: ha barátokat jelölsz, egy külön, szűk adatlap kerül a felhőbe (neved, a kedvenceid neve, faja, fajtája és születési dátuma, épp sétálsz-e és mióta, mikor sétáltál utoljára, valamint a barátokra vonatkozó beállításaid) és egy barátkód. Ezt csak az általad elfogadott barátok láthatják. A barátok egymás e-mail címét és családi adatait nem látják.</p>
 <h3>3. Hol tárolódnak az adatok</h3>
 <ul>
 <li>Mindig a telefonod belső tárhelyén, az app saját területén.</li>
@@ -77,6 +78,7 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 <ul>
 <li>Google-belépés és Firebase (Google): lásd a 3. pontot.</li>
 <li>Családi jelzések – Firebase Cloud Messaging és Cloud Functions (Google, EU-s szerver): ha egy családtag módosít egy emlékeztetőt (pl. késznek jelöli), a felhőben futó kód az emlékeztető adatait push-üzenetben elküldi a család többi tagjának telefonjára, hogy az app frissüljön, és ne szóljon feleslegesen. Az üzenetet csak a családtagjaid telefonjai kapják meg.</li>
+<li>Barát-értesítések – ugyanezen a módon: ha egy barátod sétálni indul, barátnak jelöl, elfogad, vagy előre megírt üzenetet küld, a felhőben futó kód rövid push-üzenetet küld a telefonodra (a barát neve, a kutyája neve, az üzenet). A gyorsüzenetek a kézbesítés után azonnal törlődnek a felhőből.</li>
 <li>Hibajelentés – Firebase Crashlytics (Google): a 2. pontban leírt névtelen hibajelentéseket kapja meg; ezeket legfeljebb 90 napig őrzi, és kizárólag a hibák javítására használjuk.</li>
 <li>Időjárás – MET Norway (Norvég Meteorológiai Intézet, Norvégia, EGT-tagállam): az időjárás-riasztáshoz az app a helyzeted kerekített, kb. 1 km pontosságú koordinátáját küldi el. A szolgáltató a kérés technikai adatait (pl. IP-cím, időpont) rövid ideig naplózhatja. Ha az időjárás-riasztást kikapcsolod, ilyen kérés nem történik.</li>
 <li>Google Térkép: a helykategóriák, az „Útvonal” és a „Google Térkép” gombok a Google Térképet nyitják meg a keresett kifejezéssel vagy a mentett hely címével. Ettől kezdve a Google Térkép használatára a Google szabályai vonatkoznak.</li>
@@ -128,17 +130,19 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 </section>
 <section id="feltetelek">
 <h2>Felhasználási feltételek</h2>
-<p>Hatályos: 2026. november 4.</p>
+<p>Hatályos: 2026. november 5.</p>
 <h3>1. Kik vagyunk</h3>
 <p>A „Mancs&amp;Bajusz” (korábbi nevén „Imádom a kutyám”) alkalmazást (a továbbiakban: alkalmazás vagy app) Olá-Máté Zsolt fejleszti és üzemelteti (a továbbiakban: fejlesztő). Kapcsolat: <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a></p>
 <h3>2. Mire való az alkalmazás</h3>
-<p>Az app kutya- és macskatartóknak segít: a kedvencek adatainak és fotóinak tárolása, emlékeztetők (oltás, gyógyszer, kontroll), egészségkönyv, napló, súlykövetés, dokumentumok, PDF-készítés, tünet- és fajtaismertetők, trükkök klikkerrel, időjárás-riasztás (hőség, hideg), közeli helyek keresése a Google Térképen, „Elveszett” és „Talált” plakát készítése, fotós idővonal és megosztható „Így nőtt” kép, szitterlap, gyógyszerkészlet-figyelés, etetési kalkulátor, kölyökprogram és éves teendők, szezonális figyelmeztetések, költségkövetés, séta-számláló térképpel és megosztható séta-kép, ivarzásnaptár, „Nem vált be” lista, születésnapi értesítés és ünnepi kép, évértékelő.</p>
+<p>Az app kutya- és macskatartóknak segít: a kedvencek adatainak és fotóinak tárolása, emlékeztetők (oltás, gyógyszer, kontroll), egészségkönyv, napló, súlykövetés, dokumentumok, PDF-készítés, tünet- és fajtaismertetők, trükkök klikkerrel, időjárás-riasztás (hőség, hideg), közeli helyek keresése a Google Térképen, „Elveszett” és „Talált” plakát készítése, fotós idővonal és megosztható „Így nőtt” kép, szitterlap, gyógyszerkészlet-figyelés, etetési kalkulátor, kölyökprogram és éves teendők, szezonális figyelmeztetések, költségkövetés, séta-számláló térképpel és megosztható séta-kép, ivarzásnaptár, „Nem vált be” lista, születésnapi értesítés és ünnepi kép, évértékelő, barátok.</p>
 <h3>3. A feltételek elfogadása</h3>
 <p>Az app első indításakor a feltételek és az Orvosi nyilatkozat elfogadásával kezdheted el a használatot. Ha nem értesz egyet velük, kérjük, ne használd az alkalmazást. 16 év alatti felhasználó csak szülő vagy gondviselő hozzájárulásával használhatja.</p>
 <h3>3/A. Fiók és felhős mentés</h3>
 <p>Az app fiók nélkül is teljes értékűen használható; ilyenkor az adatok csak a telefonon vannak. Ha Google-fiókkal belépsz, az adataid biztonsági másolatként a felhőbe is felkerülnek, és másik telefonon belépve visszatöltődnek. A fiókodat és minden felhős adatodat bármikor törölheted: Beállítások → Fiók és felhő → Fiók és minden adat törlése. Ha az appot már nem éred el: E-mailben: írj a <a href="mailto:mzsstudio9@gmail.com">mzsstudio9@gmail.com</a> címre „Fiók törlése” tárggyal, a Google-fiókod e-mail címéről. 30 napon belül töröljük a fiókodat és minden felhős adatodat, és visszaigazoljuk. A Google-fiókod biztonságáért (jelszó, kétlépcsős azonosítás) te felelsz.</p>
 <h3>3/B. Családi megosztás</h3>
 <p>Meghívókóddal legfeljebb 5 fős családot hozhatsz létre. Ha az appban Prémium előfizetés érhető el, a meghíváshoz a tulajdonos Prémiuma kell; a meghívott tagoknak nem kell külön előfizetés. A családtagok látják és szerkeszthetik a közös adatokat (kedvencek, fotók, emlékeztetők, egészségkönyv, dokumentumok, napló, súly, trükkök, plakát, mentett helyek, idővonal-fotók, kiadások, séták útvonala), és látják egymás nevét. Kedvencet törölni és tagokat kezelni a tulajdonos tud. Csak olyan személyt hívj meg, akivel meg szeretnéd osztani ezeket az adatokat. A tulajdonos bármikor eltávolíthat egy tagot, és bármelyik tag kiléphet; a közös adatok ilyenkor a családnál maradnak. Ha a tulajdonos Prémium előfizetése megszűnik, a családtagoknál is a Prémium funkciók korlátozottá válhatnak.</p>
+<h3>3/C. Barátok</h3>
+<p>Google-belépéssel barátkódot kapsz; ha valaki beírja, és te elfogadod (vagy fordítva), barátok lesztek. A barátaid ezt látják rólad: a nevedet, a kedvenceid nevét, faját, fajtáját és korát, valamint azt, hogy épp sétálsz-e (mióta, melyik kutyával) és mikor sétáltál utoljára. Helyadatot (útvonalat, tartózkodási helyet) soha nem látnak. Egymásnak csak az appban előre megírt rövid üzeneteket küldhetitek (pl. „Találkozzunk?”); szabad szöveges üzenet nincs. A Barátok oldalon kikapcsolhatod, hogy a barátaid lássák a sétáidat, és hogy értesítést kapj a sétáikról és az üzeneteikről. Bármelyik fél bármikor megszüntetheti a barátságot. Csak olyan személyt jelölj barátnak, akivel ezeket meg szeretnéd osztani.</p>
 <h3>4. Felhasználási jog</h3>
 <p>A fejlesztő személyes, nem kizárólagos, át nem ruházható jogot ad az app használatára. Az app szövegei, kinézete, kódja és a saját készítésű tartalmak (pl. a klikker hangja) szerzői jogi védelem alatt állnak; ezek másolása, átdolgozása, terjesztése a fejlesztő engedélye nélkül nem megengedett. A felhasznált külső adatok és programkönyvtárak a saját licencük szerint használhatók (lásd: Beállítások → Források és licencek).</p>
 <h3>5. Tájékoztató jellegű tartalmak</h3>
@@ -179,7 +183,7 @@ footer{text-align:center;color:var(--muted);font-size:.9rem;padding:0 16px 32px}
 </section>
 <section id="orvosi-nyilatkozat">
 <h2>Orvosi nyilatkozat</h2>
-<p>Hatályos: 2026. november 4.</p>
+<p>Hatályos: 2026. november 5.</p>
 <p>A „Mancs&amp;Bajusz” (korábbi nevén „Imádom a kutyám”) kutya- és macskatartást segítő, rendszerező alkalmazás. Segít emlékezni az oltásokra és kezelésekre, vezetni a kedvenced egészségügyi adatait, és általános ismereteket ad a kutyák és macskák egészségéről és neveléséről.</p>
 <h3>1. Nem állatorvosi szolgáltatás</h3>
 <p>Az alkalmazás nem állatorvos, nem állít fel diagnózist, nem ír elő kezelést, gyógyszert vagy adagolást, és nem helyettesíti az állatorvosi vizsgálatot. A tünet-adatlapokon szereplő „lehetséges okok” csak általános tájékoztatást adnak arról, mi állhat egy tünet hátterében. Ugyanaz a tünet sokféle, eltérő súlyosságú okra utalhat, amit csak állatorvos tud megállapítani.</p>
